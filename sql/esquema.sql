@@ -1,0 +1,4 @@
+-- Archivo de referencia.
+-- El servidor crea automáticamente la base de datos y las tablas al ejecutar npm start.
+-- La definición actual se encuentra en src/database.js.
+-- Este archivo se incluye para que los estudiantes sepan dónde localizar el esquema.

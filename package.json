@@ -1,0 +1,22 @@
+{
+  "name": "industria40-sistema-integral",
+  "version": "1.0.0",
+  "description": "Sistema didáctico integral de Industria 4.0 con ESP32, altura, color, peso, RFID, Node.js y MySQL.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "check-db": "node scripts/comprobar-db.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "3.0.3",
+    "dotenv": "17.4.2",
+    "express": "5.2.1",
+    "express-session": "1.19.0",
+    "mysql2": "3.23.2",
+    "socket.io": "4.8.3"
+  }
+}
